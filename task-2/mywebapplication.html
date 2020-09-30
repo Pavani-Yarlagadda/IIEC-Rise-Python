@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<script type="text/javascript">
+
+    
+
+</script>
+<head>
+    <title>Sign up form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type = "text/css">
+    
+    body{
+        margin:0;
+        padding: 0;
+        font-family: sans-serif;
+        background-image:url("lap.jpg");
+    }
+.signup .heading{
+text-align:center;
+}
+    .signup{
+        box-shadow:10px 20px 15px grey;
+width:320px;
+height:420px;
+background:#000;
+color:#fff;
+ top:50%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;      
+    }
+    .signin{
+        font-size: 20px;
+        color:rgb(42, 14, 224);
+    }
+    .signin:hover{
+        text-decoration:underline;
+    }
+    .input{
+        height:50px;
+        border-radius: 5px;
+        border-width: 1px; 
+        border-color: black;
+        box-shadow: 10px;
+        text-align:center;
+        font-size: 17px;
+        width: 250px;
+margin:10px 0px 5px 30px;
+        
+    }
+    button{
+        height: 25px;
+        width:80px;
+border:3px solid white;
+        font-size: 16px;
+        border-radius: 4px;
+        border-width: 0.5px;
+margin:10px 0px 90px 110px;
+    }
+    button:hover{
+    background-color:black;
+    color:white;
+    border:2px solid white;
+}
+    .edu{
+        text-align: center;
+        font-size: 40px;
+        font: aerial;
+        color:;
+    }
+    input:focus{
+        border-color: black;
+        outline: 3px solid black;
+        border-radius: 10px;
+    }
+
+    
+       
+    </style>
+   
+</head>
+<body>
+    <div class ="signup">
+        <h1 class="heading">Linux Commands Runner</h1>
+        <form action="http://192.168.43.12/cgi-bin/cgiprogram.py" class="form-style">
+            <input name="pavani"  type="text" class="input" placeholder="Enter Username" >
+            <input name="pavs"   type="password" class="input" placeholder="Enter Password" > 
+            <input name="command"  type="text" class="input" placeholder="Enter Command" >
+            <button >RUN</button><br>
+        </form>
+    </div>
+</body>
